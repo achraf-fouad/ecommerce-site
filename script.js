@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
         
         // WhatsApp link
-        const phoneNumber = "0669973483"; // Replace with your phone number
+        const phoneNumber = "+212669973483"; // Replace with your phone number
         const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
         // Open WhatsApp with message
